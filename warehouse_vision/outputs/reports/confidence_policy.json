@@ -1,0 +1,122 @@
+{
+  "threshold": 0.4,
+  "rule": "smallest threshold with validation accepted-accuracy >= 0.95 and coverage >= 0.5",
+  "target_met_on_val": true,
+  "val": {
+    "coverage": 0.7736486486486487,
+    "accepted_accuracy": 0.9563318777292577,
+    "n_accepted": 229,
+    "uncertain_error_rate": 0.417910447761194
+  },
+  "test": {
+    "coverage": 0.8325955734406438,
+    "accepted_accuracy": 0.9371677138714355,
+    "n_accepted": 2069,
+    "uncertain_error_rate": 0.4206730769230769
+  },
+  "overall_val_accuracy": 0.8716216216216216,
+  "overall_test_accuracy": 0.8772635814889336,
+  "ece_val": 0.2048971718680617,
+  "ece_test": 0.16335135677930576,
+  "val_table": [
+    {
+      "threshold": 0.3,
+      "coverage": 0.8614864864864865,
+      "accepted_accuracy": 0.9333333333333333,
+      "n_accepted": 255,
+      "uncertain_error_rate": 0.5121951219512195
+    },
+    {
+      "threshold": 0.35,
+      "coverage": 0.8175675675675675,
+      "accepted_accuracy": 0.9462809917355371,
+      "n_accepted": 242,
+      "uncertain_error_rate": 0.46296296296296297
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 0.7736486486486487,
+      "accepted_accuracy": 0.9563318777292577,
+      "n_accepted": 229,
+      "uncertain_error_rate": 0.417910447761194
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0.7432432432432432,
+      "accepted_accuracy": 0.9590909090909091,
+      "n_accepted": 220,
+      "uncertain_error_rate": 0.3815789473684211
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.6959459459459459,
+      "accepted_accuracy": 0.9757281553398058,
+      "n_accepted": 206,
+      "uncertain_error_rate": 0.36666666666666664
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.6824324324324325,
+      "accepted_accuracy": 0.9801980198019802,
+      "n_accepted": 202,
+      "uncertain_error_rate": 0.3617021276595745
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.652027027027027,
+      "accepted_accuracy": 0.9792746113989638,
+      "n_accepted": 193,
+      "uncertain_error_rate": 0.3300970873786408
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.6047297297297297,
+      "accepted_accuracy": 0.9832402234636871,
+      "n_accepted": 179,
+      "uncertain_error_rate": 0.29914529914529914
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.5608108108108109,
+      "accepted_accuracy": 0.9819277108433735,
+      "n_accepted": 166,
+      "uncertain_error_rate": 0.2692307692307692
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.5168918918918919,
+      "accepted_accuracy": 0.9869281045751634,
+      "n_accepted": 153,
+      "uncertain_error_rate": 0.2517482517482518
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.44256756756756754,
+      "accepted_accuracy": 1.0,
+      "n_accepted": 131,
+      "uncertain_error_rate": 0.23030303030303031
+    },
+    {
+      "threshold": 0.85,
+      "coverage": 0.3547297297297297,
+      "accepted_accuracy": 1.0,
+      "n_accepted": 105,
+      "uncertain_error_rate": 0.19895287958115182
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.23986486486486486,
+      "accepted_accuracy": 1.0,
+      "n_accepted": 71,
+      "uncertain_error_rate": 0.1688888888888889
+    },
+    {
+      "threshold": 0.95,
+      "coverage": 0.13175675675675674,
+      "accepted_accuracy": 1.0,
+      "n_accepted": 39,
+      "uncertain_error_rate": 0.14785992217898833
+    }
+  ],
+  "note": "Probability is a model score, not a guarantee of correctness. Threshold is configurable in the app."
+}

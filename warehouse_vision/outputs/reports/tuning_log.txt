@@ -1,0 +1,161 @@
+Device: cuda | run: t0_prev_recipe
+Epoch 01 | train loss 2.6054 acc 0.4879 | val loss 2.0285 acc 0.5507 | 11s
+Epoch 02 | train loss 0.7993 acc 0.9091 | val loss 1.2608 acc 0.7095 | 8s
+Epoch 03 | train loss 0.2955 acc 0.9822 | val loss 0.9993 acc 0.7635 | 8s
+Epoch 04 | train loss 0.1673 acc 0.9890 | val loss 0.9930 acc 0.7568 | 8s
+Epoch 05 | train loss 0.0966 acc 0.9939 | val loss 0.9081 acc 0.7568 | 8s
+Epoch 06 | train loss 0.0629 acc 0.9966 | val loss 0.8880 acc 0.7635 | 8s
+Epoch 07 | train loss 0.0487 acc 0.9958 | val loss 0.8285 acc 0.7736 | 8s
+Epoch 08 | train loss 0.0318 acc 1.0000 | val loss 0.7950 acc 0.7736 | 8s
+Epoch 09 | train loss 0.0259 acc 1.0000 | val loss 0.7524 acc 0.7939 | 8s
+Epoch 10 | train loss 0.0224 acc 0.9996 | val loss 0.8371 acc 0.7669 | 8s
+Epoch 11 | train loss 0.0197 acc 1.0000 | val loss 0.7827 acc 0.7601 | 8s
+Epoch 12 | train loss 0.0222 acc 0.9989 | val loss 0.7579 acc 0.7872 | 8s
+Epoch 13 | train loss 0.0184 acc 0.9996 | val loss 0.7709 acc 0.7872 | 8s
+Epoch 14 | train loss 0.0157 acc 1.0000 | val loss 0.7508 acc 0.7872 | 8s
+Early stopping.
+
+Best VAL acc 0.7939 (epoch 9) -> /home/ubuntu/warehouse_vision/outputs/runs/t0_prev_recipe/best.pt
+Test evaluation skipped (--skip-test).
+Device: cuda | run: t1_regularised
+Epoch 01 | train loss 4.1289 acc 0.0943 | val loss 3.5100 acc 0.2264 | 9s
+Epoch 02 | train loss 2.3763 acc 0.5405 | val loss 1.5141 acc 0.6115 | 8s
+Epoch 03 | train loss 1.5200 acc 0.8004 | val loss 1.3070 acc 0.5878 | 8s
+Epoch 04 | train loss 1.3183 acc 0.8595 | val loss 1.2500 acc 0.6149 | 8s
+Epoch 05 | train loss 1.2425 acc 0.8845 | val loss 1.2667 acc 0.6791 | 8s
+Epoch 06 | train loss 1.2016 acc 0.8947 | val loss 1.1913 acc 0.6858 | 8s
+Epoch 07 | train loss 1.1380 acc 0.9167 | val loss 1.2662 acc 0.6554 | 8s
+Epoch 08 | train loss 1.1060 acc 0.9258 | val loss 0.9589 acc 0.7601 | 8s
+Epoch 09 | train loss 1.0739 acc 0.9337 | val loss 0.9235 acc 0.7568 | 8s
+Epoch 10 | train loss 1.0412 acc 0.9504 | val loss 0.8889 acc 0.8007 | 8s
+Epoch 11 | train loss 1.0437 acc 0.9424 | val loss 0.9322 acc 0.7838 | 8s
+Epoch 12 | train loss 1.0279 acc 0.9538 | val loss 0.8706 acc 0.7838 | 8s
+Epoch 13 | train loss 1.0164 acc 0.9519 | val loss 0.9464 acc 0.7872 | 8s
+Epoch 14 | train loss 0.9939 acc 0.9568 | val loss 0.9113 acc 0.7804 | 8s
+Epoch 15 | train loss 0.9672 acc 0.9705 | val loss 0.8810 acc 0.7973 | 8s
+Epoch 16 | train loss 0.9731 acc 0.9633 | val loss 0.8633 acc 0.8209 | 8s
+Epoch 17 | train loss 0.9644 acc 0.9670 | val loss 0.8454 acc 0.8041 | 8s
+Epoch 18 | train loss 0.9393 acc 0.9754 | val loss 0.8182 acc 0.8514 | 8s
+Epoch 19 | train loss 0.9199 acc 0.9792 | val loss 0.8723 acc 0.8108 | 8s
+Epoch 20 | train loss 0.9292 acc 0.9739 | val loss 0.8385 acc 0.8311 | 8s
+Epoch 21 | train loss 0.8962 acc 0.9826 | val loss 0.8044 acc 0.8412 | 8s
+Epoch 22 | train loss 0.9072 acc 0.9807 | val loss 0.7782 acc 0.8514 | 8s
+Epoch 23 | train loss 0.8954 acc 0.9822 | val loss 0.8241 acc 0.8277 | 8s
+Epoch 24 | train loss 0.8972 acc 0.9822 | val loss 0.7983 acc 0.8277 | 8s
+Epoch 25 | train loss 0.8833 acc 0.9871 | val loss 0.7867 acc 0.8412 | 8s
+Epoch 26 | train loss 0.8915 acc 0.9848 | val loss 0.7979 acc 0.8345 | 8s
+Epoch 27 | train loss 0.8798 acc 0.9864 | val loss 0.7889 acc 0.8378 | 8s
+Epoch 28 | train loss 0.8729 acc 0.9867 | val loss 0.7869 acc 0.8378 | 8s
+Epoch 29 | train loss 0.8774 acc 0.9848 | val loss 0.7928 acc 0.8345 | 8s
+Epoch 30 | train loss 0.8724 acc 0.9867 | val loss 0.7881 acc 0.8378 | 8s
+
+Best VAL acc 0.8514 (epoch 22) -> /home/ubuntu/warehouse_vision/outputs/runs/t1_regularised/best.pt
+Test evaluation skipped (--skip-test).
+Device: cuda | run: t2_plus_iconic
+Adding 81 iconic images to train
+Epoch 01 | train loss 4.1348 acc 0.0919 | val loss 3.4764 acc 0.1959 | 9s
+Epoch 02 | train loss 2.3732 acc 0.5366 | val loss 1.4290 acc 0.6318 | 9s
+Epoch 03 | train loss 1.5229 acc 0.7997 | val loss 1.2722 acc 0.6453 | 9s
+Epoch 04 | train loss 1.3725 acc 0.8431 | val loss 1.1215 acc 0.7162 | 9s
+Epoch 05 | train loss 1.2761 acc 0.8651 | val loss 0.9457 acc 0.7770 | 9s
+Epoch 06 | train loss 1.1937 acc 0.8982 | val loss 1.2275 acc 0.6959 | 9s
+Epoch 07 | train loss 1.1793 acc 0.9022 | val loss 0.9374 acc 0.7804 | 9s
+Epoch 08 | train loss 1.1175 acc 0.9232 | val loss 1.0881 acc 0.7432 | 9s
+Epoch 09 | train loss 1.1264 acc 0.9195 | val loss 0.9254 acc 0.7601 | 9s
+Epoch 10 | train loss 1.1027 acc 0.9254 | val loss 1.0181 acc 0.7635 | 9s
+Epoch 11 | train loss 1.0798 acc 0.9364 | val loss 0.8811 acc 0.8007 | 9s
+Epoch 12 | train loss 1.0437 acc 0.9434 | val loss 0.9190 acc 0.7905 | 9s
+Epoch 13 | train loss 1.0245 acc 0.9482 | val loss 0.8759 acc 0.8108 | 9s
+Epoch 14 | train loss 1.0209 acc 0.9504 | val loss 1.0176 acc 0.7770 | 9s
+Epoch 15 | train loss 0.9911 acc 0.9599 | val loss 0.9102 acc 0.8243 | 9s
+Epoch 16 | train loss 0.9811 acc 0.9596 | val loss 0.8857 acc 0.8311 | 9s
+Epoch 17 | train loss 0.9491 acc 0.9732 | val loss 0.8888 acc 0.7973 | 9s
+Epoch 18 | train loss 0.9525 acc 0.9702 | val loss 0.9650 acc 0.7770 | 9s
+Epoch 19 | train loss 0.9456 acc 0.9699 | val loss 0.7734 acc 0.8480 | 9s
+Epoch 20 | train loss 0.9217 acc 0.9787 | val loss 0.8578 acc 0.8378 | 9s
+Epoch 21 | train loss 0.9266 acc 0.9743 | val loss 0.7990 acc 0.8345 | 9s
+Epoch 22 | train loss 0.9261 acc 0.9717 | val loss 0.9271 acc 0.8007 | 9s
+Epoch 23 | train loss 0.9019 acc 0.9831 | val loss 0.8563 acc 0.8345 | 9s
+Epoch 24 | train loss 0.8950 acc 0.9842 | val loss 0.8440 acc 0.8209 | 9s
+Epoch 25 | train loss 0.9037 acc 0.9791 | val loss 0.8018 acc 0.8547 | 9s
+Epoch 26 | train loss 0.8971 acc 0.9816 | val loss 0.7522 acc 0.8547 | 9s
+Epoch 27 | train loss 0.8940 acc 0.9798 | val loss 0.8277 acc 0.8446 | 9s
+Epoch 28 | train loss 0.8839 acc 0.9849 | val loss 0.7918 acc 0.8514 | 9s
+Epoch 29 | train loss 0.8817 acc 0.9857 | val loss 0.7442 acc 0.8514 | 9s
+Epoch 30 | train loss 0.8872 acc 0.9838 | val loss 0.8283 acc 0.8547 | 9s
+
+Best VAL acc 0.8547 (epoch 26) -> /home/ubuntu/warehouse_vision/outputs/runs/t2_plus_iconic/best.pt
+Test evaluation skipped (--skip-test).
+Device: cuda | run: t3_plus_mixup
+Epoch 01 | train loss 4.1969 acc 0.0580 | val loss 3.5653 acc 0.2095 | 9s
+Epoch 02 | train loss 2.8505 acc 0.2814 | val loss 1.7394 acc 0.5405 | 8s
+Epoch 03 | train loss 1.9808 acc 0.3640 | val loss 1.3511 acc 0.5878 | 8s
+Epoch 04 | train loss 1.8053 acc 0.3492 | val loss 1.3008 acc 0.6385 | 8s
+Epoch 05 | train loss 1.8479 acc 0.3496 | val loss 1.2801 acc 0.6993 | 8s
+Epoch 06 | train loss 1.6728 acc 0.4557 | val loss 1.3849 acc 0.6419 | 8s
+Epoch 07 | train loss 1.6252 acc 0.5337 | val loss 1.2249 acc 0.7027 | 8s
+Epoch 08 | train loss 1.6649 acc 0.4568 | val loss 1.1115 acc 0.7500 | 8s
+Epoch 09 | train loss 1.7132 acc 0.4864 | val loss 1.1328 acc 0.7095 | 8s
+Epoch 10 | train loss 1.5684 acc 0.4504 | val loss 1.1863 acc 0.7466 | 8s
+Epoch 11 | train loss 1.5400 acc 0.4527 | val loss 1.1146 acc 0.7635 | 8s
+Epoch 12 | train loss 1.6244 acc 0.4428 | val loss 1.1086 acc 0.7568 | 8s
+Epoch 13 | train loss 1.5276 acc 0.4799 | val loss 1.0483 acc 0.7770 | 8s
+Epoch 14 | train loss 1.4185 acc 0.5708 | val loss 0.9024 acc 0.8074 | 8s
+Epoch 15 | train loss 1.5825 acc 0.4561 | val loss 0.9714 acc 0.8007 | 8s
+Epoch 16 | train loss 1.4693 acc 0.5239 | val loss 0.9873 acc 0.7973 | 8s
+Epoch 17 | train loss 1.3993 acc 0.5174 | val loss 1.0343 acc 0.8041 | 8s
+Epoch 18 | train loss 1.4838 acc 0.4795 | val loss 0.8983 acc 0.8108 | 8s
+Epoch 19 | train loss 1.5198 acc 0.5413 | val loss 0.9421 acc 0.8108 | 8s
+Epoch 20 | train loss 1.5886 acc 0.5375 | val loss 1.0267 acc 0.8311 | 8s
+Epoch 21 | train loss 1.3660 acc 0.4693 | val loss 0.9827 acc 0.8378 | 8s
+Epoch 22 | train loss 1.3521 acc 0.5568 | val loss 0.8828 acc 0.8446 | 8s
+Epoch 23 | train loss 1.3476 acc 0.5542 | val loss 0.9763 acc 0.8277 | 8s
+Epoch 24 | train loss 1.4388 acc 0.6303 | val loss 0.9400 acc 0.8243 | 8s
+Epoch 25 | train loss 1.4352 acc 0.4727 | val loss 0.9510 acc 0.8412 | 8s
+Epoch 26 | train loss 1.4584 acc 0.4598 | val loss 0.9439 acc 0.8345 | 8s
+Epoch 27 | train loss 1.4930 acc 0.4746 | val loss 0.9860 acc 0.8446 | 8s
+Epoch 28 | train loss 1.3157 acc 0.5136 | val loss 0.9019 acc 0.8311 | 8s
+Epoch 29 | train loss 1.4225 acc 0.4439 | val loss 1.0250 acc 0.8378 | 8s
+Epoch 30 | train loss 1.2845 acc 0.5508 | val loss 0.8869 acc 0.8514 | 8s
+
+Best VAL acc 0.8514 (epoch 30) -> /home/ubuntu/warehouse_vision/outputs/runs/t3_plus_mixup/best.pt
+Test evaluation skipped (--skip-test).
+Device: cuda | run: t4_img288
+Epoch 01 | train loss 4.0919 acc 0.1015 | val loss 3.4677 acc 0.2196 | 14s
+Epoch 02 | train loss 2.3576 acc 0.5473 | val loss 1.7113 acc 0.5574 | 13s
+Epoch 03 | train loss 1.5111 acc 0.8061 | val loss 1.1753 acc 0.6622 | 13s
+Epoch 04 | train loss 1.2942 acc 0.8739 | val loss 1.0851 acc 0.6926 | 13s
+Epoch 05 | train loss 1.2202 acc 0.8905 | val loss 1.3686 acc 0.6824 | 13s
+Epoch 06 | train loss 1.1794 acc 0.9004 | val loss 1.1680 acc 0.7365 | 13s
+Epoch 07 | train loss 1.1354 acc 0.9178 | val loss 1.0579 acc 0.7736 | 13s
+Epoch 08 | train loss 1.1074 acc 0.9292 | val loss 1.1223 acc 0.7297 | 13s
+Epoch 09 | train loss 1.0597 acc 0.9409 | val loss 1.0509 acc 0.7568 | 13s
+Epoch 10 | train loss 1.0246 acc 0.9568 | val loss 0.7847 acc 0.8378 | 13s
+Epoch 11 | train loss 1.0229 acc 0.9553 | val loss 0.8936 acc 0.8311 | 13s
+Epoch 12 | train loss 1.0089 acc 0.9621 | val loss 0.9382 acc 0.8041 | 13s
+Epoch 13 | train loss 1.0000 acc 0.9610 | val loss 0.9581 acc 0.8378 | 13s
+Epoch 14 | train loss 0.9862 acc 0.9595 | val loss 0.8591 acc 0.8412 | 13s
+Epoch 15 | train loss 0.9566 acc 0.9723 | val loss 0.7498 acc 0.8378 | 13s
+Epoch 16 | train loss 0.9521 acc 0.9712 | val loss 0.8080 acc 0.8074 | 13s
+Epoch 17 | train loss 0.9612 acc 0.9614 | val loss 0.7152 acc 0.8615 | 13s
+Epoch 18 | train loss 0.9284 acc 0.9803 | val loss 0.7637 acc 0.8412 | 13s
+Epoch 19 | train loss 0.9028 acc 0.9860 | val loss 0.8136 acc 0.8243 | 13s
+Epoch 20 | train loss 0.9154 acc 0.9780 | val loss 0.7826 acc 0.8446 | 13s
+Epoch 21 | train loss 0.8877 acc 0.9879 | val loss 0.7509 acc 0.8615 | 13s
+Epoch 22 | train loss 0.8958 acc 0.9818 | val loss 0.7104 acc 0.8716 | 13s
+Epoch 23 | train loss 0.8822 acc 0.9867 | val loss 0.7830 acc 0.8716 | 13s
+Epoch 24 | train loss 0.8900 acc 0.9871 | val loss 0.7225 acc 0.8615 | 13s
+Epoch 25 | train loss 0.8719 acc 0.9905 | val loss 0.7513 acc 0.8649 | 13s
+Epoch 26 | train loss 0.8798 acc 0.9860 | val loss 0.7496 acc 0.8750 | 13s
+Epoch 27 | train loss 0.8735 acc 0.9890 | val loss 0.7207 acc 0.8851 | 13s
+Epoch 28 | train loss 0.8641 acc 0.9886 | val loss 0.7274 acc 0.8750 | 13s
+Epoch 29 | train loss 0.8735 acc 0.9848 | val loss 0.7353 acc 0.8750 | 13s
+Epoch 30 | train loss 0.8647 acc 0.9898 | val loss 0.7346 acc 0.8750 | 13s
+
+Best VAL acc 0.8851 (epoch 27) -> /home/ubuntu/warehouse_vision/outputs/runs/t4_img288/best.pt
+Test evaluation skipped (--skip-test).
+t0_prev_recipe         val_acc=0.7939 val_loss=0.7524
+t1_regularised         val_acc=0.8514 val_loss=0.7782
+t2_plus_iconic         val_acc=0.8547 val_loss=0.7522
+t3_plus_mixup          val_acc=0.8514 val_loss=0.8869
+t4_img288              val_acc=0.8851 val_loss=0.7207

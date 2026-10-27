@@ -1,0 +1,25 @@
+{
+  "model": "yolov8n.pt",
+  "ultralytics": "8.4.190",
+  "torch": "2.14.1+cu130",
+  "python": "3.12.3",
+  "imgsz": 640,
+  "batch": 16,
+  "epochs_requested": 60,
+  "seed": 42,
+  "task": "single-class barcode REGION detection",
+  "metric_notes": "P/R at the F1-optimal confidence reported by Ultralytics; mAP at IoU 0.50 and averaged over 0.50:0.95; eval conf=0.001, NMS iou=0.6",
+  "weights": "/home/ubuntu/warehouse_vision/outputs/yolo_runs/barcode_yolov8n/weights/best.pt",
+  "val": {
+    "precision": 0.9744282460517534,
+    "recall": 1.0,
+    "mAP@0.50": 0.9867784028754489,
+    "mAP@0.50:0.95": 0.8501165536257812
+  },
+  "test": {
+    "precision": 0.9745648010051255,
+    "recall": 1.0,
+    "mAP@0.50": 0.9852545068928951,
+    "mAP@0.50:0.95": 0.8210162777862966
+  }
+}

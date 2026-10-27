@@ -1,0 +1,31 @@
+{
+  "run": "t0_prev_recipe",
+  "args": {
+    "run_name": "t0_prev_recipe",
+    "arch": "resnet18",
+    "epochs": 15,
+    "batch": 32,
+    "lr": 0.0001,
+    "backbone_lr": 0.0001,
+    "diff_lr": false,
+    "wd": 0.0001,
+    "cosine": false,
+    "aug": "basic",
+    "ls": 0.0,
+    "dropout": 0.0,
+    "mixup": 0.0,
+    "img_size": 224,
+    "eval_mode": "crop",
+    "iconic": false,
+    "tta": false,
+    "patience": 5,
+    "seed": 42,
+    "workers": 4,
+    "subset": 0,
+    "skip_test": true,
+    "promote": false
+  },
+  "best_epoch": 9,
+  "best_val_acc": 0.793918918918919,
+  "best_val_loss": 0.7523854062766642
+}

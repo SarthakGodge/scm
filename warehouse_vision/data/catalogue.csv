@@ -1,0 +1,10 @@
+barcode,sku,product_name,category,expected_quantity,location,status,visual_class,record_source
+5901234123457,SKU-DEMO-0001,Demo Item A (simulated),Demo Category 1,24,A-01-03,active,,SIMULATED
+4006381333931,SKU-DEMO-0002,Demo Item B (simulated),Demo Category 1,12,A-01-04,active,,SIMULATED
+9780201379624,SKU-DEMO-0003,Demo Item C (simulated),Demo Category 2,40,B-02-01,active,,SIMULATED
+012345678905,SKU-DEMO-0004,Demo Item D (simulated),Demo Category 3,8,C-03-02,discontinued,,SIMULATED
+8850332241143,SKU-DEMO-0101,Demo Item 101 (simulated),Demo Category (simulated),11,D-01-01,active,,SIMULATED
+8850425000268,SKU-DEMO-0102,Demo Item 102 (simulated),Demo Category (simulated),12,D-02-01,active,,SIMULATED
+8852047111131,SKU-DEMO-0103,Demo Item 103 (simulated),Demo Category (simulated),13,D-03-01,active,,SIMULATED
+8851727005531,SKU-DEMO-0104,Demo Item 104 (simulated),Demo Category (simulated),14,D-04-01,active,,SIMULATED
+8850412504021,SKU-DEMO-0105,Demo Item 105 (simulated),Demo Category (simulated),15,D-05-01,active,,SIMULATED

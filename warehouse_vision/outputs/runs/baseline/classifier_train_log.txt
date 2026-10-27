@@ -1,0 +1,38 @@
+Device: cuda
+Epoch 01 | train loss 2.1316 acc 0.4458 | val loss 2.6837 acc 0.3311 | 9s
+Epoch 02 | train loss 0.7814 acc 0.7727 | val loss 2.3012 acc 0.4189 | 8s
+Epoch 03 | train loss 0.5178 acc 0.8568 | val loss 1.8930 acc 0.4764 | 8s
+Epoch 04 | train loss 0.3885 acc 0.8920 | val loss 1.8917 acc 0.5270 | 8s
+Epoch 05 | train loss 0.2709 acc 0.9250 | val loss 1.9999 acc 0.5709 | 8s
+Epoch 06 | train loss 0.2043 acc 0.9383 | val loss 1.8828 acc 0.5709 | 8s
+Epoch 07 | train loss 0.2241 acc 0.9314 | val loss 1.9909 acc 0.4865 | 8s
+Epoch 08 | train loss 0.2285 acc 0.9371 | val loss 2.2716 acc 0.4730 | 8s
+Epoch 09 | train loss 0.2194 acc 0.9318 | val loss 2.3335 acc 0.5068 | 8s
+Epoch 10 | train loss 0.1056 acc 0.9686 | val loss 1.2098 acc 0.6554 | 8s
+Epoch 11 | train loss 0.0323 acc 0.9924 | val loss 1.2843 acc 0.6520 | 8s
+Epoch 12 | train loss 0.0257 acc 0.9943 | val loss 1.3208 acc 0.6689 | 8s
+Epoch 13 | train loss 0.0147 acc 0.9970 | val loss 1.2318 acc 0.6858 | 8s
+Epoch 14 | train loss 0.0145 acc 0.9981 | val loss 1.2025 acc 0.6892 | 8s
+Epoch 15 | train loss 0.0088 acc 0.9992 | val loss 1.1165 acc 0.6926 | 8s
+Epoch 16 | train loss 0.0072 acc 0.9989 | val loss 1.1689 acc 0.6892 | 8s
+Epoch 17 | train loss 0.0041 acc 1.0000 | val loss 1.1515 acc 0.6858 | 8s
+Epoch 18 | train loss 0.0068 acc 0.9992 | val loss 1.1096 acc 0.6993 | 8s
+Epoch 19 | train loss 0.0059 acc 0.9996 | val loss 1.0763 acc 0.7297 | 8s
+Epoch 20 | train loss 0.0050 acc 0.9996 | val loss 1.0582 acc 0.7230 | 8s
+Epoch 21 | train loss 0.0040 acc 1.0000 | val loss 1.0610 acc 0.7196 | 8s
+Epoch 22 | train loss 0.0075 acc 0.9985 | val loss 1.2268 acc 0.6757 | 8s
+Epoch 23 | train loss 0.0164 acc 0.9958 | val loss 1.0811 acc 0.7196 | 8s
+Epoch 24 | train loss 0.0052 acc 1.0000 | val loss 1.0575 acc 0.7365 | 8s
+Epoch 25 | train loss 0.0033 acc 1.0000 | val loss 1.0578 acc 0.7128 | 8s
+{
+  "best_epoch": 24,
+  "best_val_acc": 0.7364864864864865,
+  "test_accuracy": 0.7593561368209255,
+  "macro_precision": 0.7905289911291378,
+  "macro_recall": 0.7717105377494234,
+  "macro_f1": 0.7687086829719181,
+  "num_test_images": 2485,
+  "device": "cuda",
+  "inference_ms_per_image_model_only": 1.9969397800014121,
+  "inference_timing_note": "batch=1, preprocessed tensor, 20 warm-up + 100 timed runs, excludes image loading"
+}

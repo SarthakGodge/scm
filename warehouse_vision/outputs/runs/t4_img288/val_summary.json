@@ -1,0 +1,31 @@
+{
+  "run": "t4_img288",
+  "args": {
+    "run_name": "t4_img288",
+    "arch": "resnet18",
+    "epochs": 30,
+    "batch": 32,
+    "lr": 0.0003,
+    "backbone_lr": 0.0001,
+    "diff_lr": false,
+    "wd": 0.0001,
+    "cosine": true,
+    "aug": "strong",
+    "ls": 0.1,
+    "dropout": 0.2,
+    "mixup": 0.0,
+    "img_size": 288,
+    "eval_mode": "crop",
+    "iconic": false,
+    "tta": false,
+    "patience": 10,
+    "seed": 42,
+    "workers": 4,
+    "subset": 0,
+    "skip_test": true,
+    "promote": false
+  },
+  "best_epoch": 27,
+  "best_val_acc": 0.8851351351351351,
+  "best_val_loss": 0.7207332193046003
+}

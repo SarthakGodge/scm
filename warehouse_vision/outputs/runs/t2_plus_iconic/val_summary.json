@@ -1,0 +1,31 @@
+{
+  "run": "t2_plus_iconic",
+  "args": {
+    "run_name": "t2_plus_iconic",
+    "arch": "resnet18",
+    "epochs": 30,
+    "batch": 32,
+    "lr": 0.0003,
+    "backbone_lr": 0.0001,
+    "diff_lr": false,
+    "wd": 0.0001,
+    "cosine": true,
+    "aug": "strong",
+    "ls": 0.1,
+    "dropout": 0.2,
+    "mixup": 0.0,
+    "img_size": 224,
+    "eval_mode": "crop",
+    "iconic": true,
+    "tta": false,
+    "patience": 10,
+    "seed": 42,
+    "workers": 4,
+    "subset": 0,
+    "skip_test": true,
+    "promote": false
+  },
+  "best_epoch": 26,
+  "best_val_acc": 0.8547297297297297,
+  "best_val_loss": 0.7522129416465759
+}

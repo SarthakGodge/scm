@@ -1,0 +1,13 @@
+{
+  "source": "/home/ubuntu/warehouse_vision/data/raw/BenchmarkBarcodeDatasets/InventBar",
+  "annotation_format": "YOLO normalized (class xc yc w h), already native; no conversion needed",
+  "seed": 42,
+  "split_sizes": {
+    "train": 368,
+    "val": 79,
+    "test": 80
+  },
+  "total_boxes": 527,
+  "failures": [],
+  "limitations": "One box per image, single class; scenes with multiple barcodes may have unlabeled barcodes."
+}

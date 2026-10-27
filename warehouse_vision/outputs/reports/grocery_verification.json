@@ -1,0 +1,20 @@
+{
+  "num_classes": 81,
+  "train": {
+    "lines": 2640,
+    "usable": 2640
+  },
+  "val": {
+    "lines": 296,
+    "usable": 296
+  },
+  "test": {
+    "lines": 2485,
+    "usable": 2485
+  },
+  "split_overlap": {
+    "train&val": 0,
+    "train&test": 0,
+    "val&test": 0
+  }
+}

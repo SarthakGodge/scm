@@ -1,0 +1,74 @@
+Device: cuda | run: final
+Epoch 01 | train loss 4.0919 acc 0.1015 | val loss 3.4679 acc 0.2196 | 14s
+Epoch 02 | train loss 2.3551 acc 0.5462 | val loss 1.6517 acc 0.5676 | 13s
+Epoch 03 | train loss 1.5079 acc 0.8030 | val loss 1.2302 acc 0.6284 | 13s
+Epoch 04 | train loss 1.3023 acc 0.8670 | val loss 1.0918 acc 0.6824 | 13s
+Epoch 05 | train loss 1.2227 acc 0.8890 | val loss 1.1247 acc 0.6993 | 13s
+Epoch 06 | train loss 1.1810 acc 0.9049 | val loss 1.5607 acc 0.6351 | 13s
+Epoch 07 | train loss 1.1257 acc 0.9227 | val loss 1.2466 acc 0.7095 | 13s
+Epoch 08 | train loss 1.0976 acc 0.9394 | val loss 1.0413 acc 0.7399 | 13s
+Epoch 09 | train loss 1.0468 acc 0.9489 | val loss 0.9742 acc 0.7703 | 13s
+Epoch 10 | train loss 1.0208 acc 0.9587 | val loss 0.8239 acc 0.8378 | 13s
+Epoch 11 | train loss 1.0286 acc 0.9534 | val loss 1.0034 acc 0.7973 | 13s
+Epoch 12 | train loss 1.0143 acc 0.9606 | val loss 0.8127 acc 0.8277 | 13s
+Epoch 13 | train loss 0.9905 acc 0.9636 | val loss 0.9653 acc 0.8345 | 13s
+Epoch 14 | train loss 0.9741 acc 0.9667 | val loss 0.8176 acc 0.8378 | 13s
+Epoch 15 | train loss 0.9479 acc 0.9761 | val loss 0.8310 acc 0.8142 | 13s
+Epoch 16 | train loss 0.9469 acc 0.9739 | val loss 0.8326 acc 0.8176 | 13s
+Epoch 17 | train loss 0.9620 acc 0.9644 | val loss 0.7916 acc 0.8311 | 13s
+Epoch 18 | train loss 0.9280 acc 0.9822 | val loss 0.7773 acc 0.8412 | 13s
+Epoch 19 | train loss 0.9081 acc 0.9833 | val loss 0.8052 acc 0.8446 | 13s
+Epoch 20 | train loss 0.9197 acc 0.9758 | val loss 0.8135 acc 0.8378 | 13s
+Epoch 21 | train loss 0.8838 acc 0.9905 | val loss 0.7986 acc 0.8480 | 13s
+Epoch 22 | train loss 0.8942 acc 0.9811 | val loss 0.7496 acc 0.8615 | 13s
+Epoch 23 | train loss 0.8828 acc 0.9879 | val loss 0.8029 acc 0.8615 | 13s
+Epoch 24 | train loss 0.8878 acc 0.9864 | val loss 0.7385 acc 0.8682 | 13s
+Epoch 25 | train loss 0.8714 acc 0.9909 | val loss 0.7617 acc 0.8649 | 13s
+Epoch 26 | train loss 0.8799 acc 0.9860 | val loss 0.7532 acc 0.8682 | 13s
+Epoch 27 | train loss 0.8712 acc 0.9890 | val loss 0.7377 acc 0.8682 | 13s
+Epoch 28 | train loss 0.8619 acc 0.9917 | val loss 0.7473 acc 0.8615 | 13s
+Epoch 29 | train loss 0.8684 acc 0.9898 | val loss 0.7497 acc 0.8716 | 13s
+Epoch 30 | train loss 0.8633 acc 0.9902 | val loss 0.7490 acc 0.8649 | 13s
+
+Best VAL acc 0.8716 (epoch 29) -> /home/ubuntu/warehouse_vision/outputs/runs/final/best.pt
+Promoted to /home/ubuntu/warehouse_vision/outputs/models/resnet18_grocery_best.pt
+{
+  "run": "final",
+  "args": {
+    "run_name": "final",
+    "arch": "resnet18",
+    "epochs": 30,
+    "batch": 32,
+    "lr": 0.0003,
+    "backbone_lr": 0.0001,
+    "diff_lr": false,
+    "wd": 0.0001,
+    "cosine": true,
+    "aug": "strong",
+    "ls": 0.1,
+    "dropout": 0.2,
+    "mixup": 0.0,
+    "img_size": 288,
+    "eval_mode": "crop",
+    "iconic": false,
+    "tta": false,
+    "patience": 10,
+    "seed": 42,
+    "workers": 4,
+    "subset": 0,
+    "skip_test": false,
+    "promote": true
+  },
+  "best_epoch": 29,
+  "best_val_acc": 0.8716216216216216,
+  "best_val_loss": 0.7496613940677127,
+  "test_accuracy": 0.8772635814889336,
+  "macro_precision": 0.9025667263720932,
+  "macro_recall": 0.8911777939871259,
+  "macro_f1": 0.8904052897477719,
+  "num_test_images": 2485,
+  "tta_hflip": false,
+  "device": "cuda",
+  "inference_ms_per_image_model_only": 2.7804346599987184,
+  "inference_timing_note": "batch=1, preprocessed tensor, 20 warm-up + 100 timed runs, excludes image loading and TTA"
+}

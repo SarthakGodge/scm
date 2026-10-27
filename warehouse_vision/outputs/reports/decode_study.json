@@ -1,0 +1,15 @@
+{
+  "split": "test",
+  "n_images": 80,
+  "decode_rate_gt_crops": 0.975,
+  "decode_rate_full_image": 0.975,
+  "symbologies_decoded": {
+    "EAN13": 26,
+    "CODE128": 27,
+    "CODE39": 22,
+    "EAN8": 3
+  },
+  "note": "decode RATE only; no ground-truth text exists to verify correctness",
+  "images_with_detection": 1.0,
+  "decode_rate_detector_crops": 0.9625
+}

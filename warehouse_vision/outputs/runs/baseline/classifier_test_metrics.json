@@ -1,0 +1,12 @@
+{
+  "best_epoch": 24,
+  "best_val_acc": 0.7364864864864865,
+  "test_accuracy": 0.7593561368209255,
+  "macro_precision": 0.7905289911291378,
+  "macro_recall": 0.7717105377494234,
+  "macro_f1": 0.7687086829719181,
+  "num_test_images": 2485,
+  "device": "cuda",
+  "inference_ms_per_image_model_only": 1.9969397800014121,
+  "inference_timing_note": "batch=1, preprocessed tensor, 20 warm-up + 100 timed runs, excludes image loading"
+}

@@ -1,0 +1,87 @@
+                                        precision    recall  f1-score   support
+
+                      Golden-Delicious       0.58      0.42      0.49        45
+                          Granny-Smith       0.58      0.97      0.72        58
+                             Pink-Lady       0.77      1.00      0.87        59
+                         Red-Delicious       0.94      1.00      0.97        50
+                            Royal-Gala       0.78      0.72      0.75        64
+                               Avocado       1.00      0.90      0.95        40
+                                Banana       0.96      1.00      0.98        44
+                                  Kiwi       0.86      0.93      0.89        45
+                                 Lemon       0.76      0.46      0.58        41
+                                  Lime       0.71      0.57      0.63        30
+                                 Mango       0.86      0.61      0.72        31
+                            Cantaloupe       1.00      0.64      0.78        39
+                           Galia-Melon       0.70      0.94      0.80        32
+                        Honeydew-Melon       0.97      0.78      0.86        36
+                            Watermelon       1.00      0.96      0.98        46
+                             Nectarine       0.96      0.71      0.82        35
+                                Orange       0.46      0.64      0.53        56
+                                Papaya       0.70      1.00      0.82        21
+                         Passion-Fruit       0.96      0.93      0.94        27
+                                 Peach       0.89      0.94      0.92        36
+                                 Anjou       0.76      0.54      0.63        35
+                            Conference       0.91      0.98      0.95        44
+                                Kaiser       1.00      0.86      0.93        29
+                             Pineapple       0.92      0.92      0.92        25
+                                  Plum       1.00      0.86      0.93        22
+                           Pomegranate       0.90      0.76      0.83        25
+                        Red-Grapefruit       0.43      0.44      0.43        34
+                              Satsumas       0.72      0.62      0.67        68
+                     Bravo-Apple-Juice       1.00      1.00      1.00        23
+                    Bravo-Orange-Juice       1.00      1.00      1.00        31
+                God-Morgon-Apple-Juice       0.90      1.00      0.95        19
+               God-Morgon-Orange-Juice       1.00      1.00      1.00        22
+God-Morgon-Orange-Red-Grapefruit-Juice       0.85      0.89      0.87        19
+       God-Morgon-Red-Grapefruit-Juice       1.00      0.86      0.92        14
+                 Tropicana-Apple-Juice       1.00      1.00      1.00        28
+           Tropicana-Golden-Grapefruit       1.00      1.00      1.00        19
+                Tropicana-Juice-Smooth       1.00      1.00      1.00        24
+            Tropicana-Mandarin-Morning       1.00      1.00      1.00        20
+       Arla-Ecological-Medium-Fat-Milk       0.97      1.00      0.98        29
+          Arla-Lactose-Medium-Fat-Milk       1.00      1.00      1.00        25
+                  Arla-Medium-Fat-Milk       1.00      0.97      0.99        34
+                    Arla-Standard-Milk       1.00      1.00      1.00        30
+     Garant-Ecological-Medium-Fat-Milk       1.00      1.00      1.00        35
+       Garant-Ecological-Standard-Milk       1.00      1.00      1.00        11
+                Oatly-Natural-Oatghurt       0.97      1.00      0.98        30
+                        Oatly-Oat-Milk       1.00      0.97      0.98        31
+            Arla-Ecological-Sour-Cream       1.00      0.91      0.95        23
+                       Arla-Sour-Cream       0.90      1.00      0.95        18
+                        Arla-Sour-Milk       1.00      1.00      1.00        19
+              Alpro-Blueberry-Soyghurt       1.00      1.00      1.00        28
+                Alpro-Vanilla-Soyghurt       1.00      1.00      1.00        19
+                  Alpro-Fresh-Soy-Milk       0.97      1.00      0.98        28
+                  Alpro-Shelf-Soy-Milk       1.00      1.00      1.00        30
+             Arla-Mild-Vanilla-Yoghurt       1.00      1.00      1.00        27
+     Arla-Natural-Mild-Low-Fat-Yoghurt       1.00      1.00      1.00        23
+                  Arla-Natural-Yoghurt       1.00      1.00      1.00        41
+                 Valio-Vanilla-Yoghurt       1.00      1.00      1.00        31
+              Yoggi-Strawberry-Yoghurt       0.84      0.84      0.84        32
+                 Yoggi-Vanilla-Yoghurt       0.72      0.72      0.72        18
+                             Asparagus       0.87      0.93      0.90        14
+                             Aubergine       1.00      1.00      1.00        22
+                               Cabbage       0.94      0.89      0.92        19
+                               Carrots       1.00      1.00      1.00        42
+                              Cucumber       1.00      0.78      0.88        27
+                                Garlic       0.81      1.00      0.89        25
+                                Ginger       0.80      0.53      0.64        15
+                                  Leek       0.90      0.90      0.90        21
+                    Brown-Cap-Mushroom       0.95      0.97      0.96        39
+                          Yellow-Onion       1.00      0.97      0.99        37
+                     Green-Bell-Pepper       0.83      0.96      0.89        25
+                    Orange-Bell-Pepper       1.00      0.69      0.82        26
+                       Red-Bell-Pepper       1.00      0.97      0.98        33
+                    Yellow-Bell-Pepper       0.89      0.92      0.91        26
+                         Floury-Potato       0.68      0.94      0.79        16
+                          Solid-Potato       0.96      0.81      0.88        27
+                          Sweet-Potato       1.00      0.74      0.85        27
+                              Red-Beet       0.94      1.00      0.97        17
+                           Beef-Tomato       0.59      1.00      0.74        10
+                        Regular-Tomato       0.92      1.00      0.96        47
+                           Vine-Tomato       0.95      0.88      0.92        43
+                              Zucchini       0.88      1.00      0.94        29
+
+                              accuracy                           0.88      2485
+                             macro avg       0.90      0.89      0.89      2485
+                          weighted avg       0.89      0.88      0.88      2485
